@@ -7,22 +7,22 @@ from pyrogram import filters
 load_dotenv()
 
 # Get this value from my.telegram.org/apps
-API_ID = int(getenv("API_ID"))
-API_HASH = getenv("API_HASH")
+API_ID = "24542160"
+API_HASH = "143ef5efcaf0f2b259dcd0ea2cfaf336"
 
 # Get your token from @BotFather on Telegram.
-BOT_TOKEN = getenv("BOT_TOKEN")
+BOT_TOKEN = "8096745814:AAFZ2M7mpkKPMvyIqpUsoF1DbG1S4cJef4I"
 
 # Get your mongo url from cloud.mongodb.com
-MONGO_DB_URI = getenv("MONGO_DB_URI", None)
+MONGO_DB_URI = "mongodb+srv://anshganava4444:anshganava4444@cluster0.4eott.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
 
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 60))
 
 # Chat id of a group for logging bot's activities
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", None))
+LOG_GROUP_ID = "-1002035748224"
 
 # Get this value from @MissRose_Bot on Telegram by /id
-OWNER_ID = int(getenv("OWNER_ID", None))
+OWNER_ID = "7793156995"
 
 ## Fill these variables if you're deploying on heroku.
 # Your heroku app name
@@ -43,8 +43,8 @@ GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/NexGenBots")
-SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/NexGenSpam")
+SUPPORT_CHANNEL = "https://t.me/eternal_bot_updates"
+SUPPORT_GROUP = "https://t.me/sorcerers_680"
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
@@ -69,7 +69,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", 2145386496))
 
 
 # Get your pyrogram v2 session from Replit
-STRING1 = getenv("STRING_SESSION", None)
+STRING1 = "BQF2e9AAE1cz_cTrpCUli3yIrjUpbZH7w1fJk6gfy7_IHll6KdPc-A2PdI7bM0Z1ZGOWp_1WCJBgIafkGX33bLj7b4ejkJ5u3Pn4nhCc2I9h1AQMt5ifQXZrGzDjy4xRESupUq-tafjN8PZmUk7Ui3-VheWUyO_rtb7_qG3gF8E_sQQ1SVJU4l85tv00e0k2_qaUnng1eLzKMw0sLmGf3xbfy6YKut-C69Pf_V1_gfFFfdaua8rXCmDb_SFPw_Wq-7hf_Zex7py54OY8Mqnuos2KFPv9fOigt1W-0Lst5lCI6Dhn8MrYzseBZKbG_FlPeLUhZ0ypox8R-owMrjxVpxMsplRYCQAAAAHTUNvuAA"
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
@@ -84,14 +84,14 @@ autoclean = []
 confirmer = {}
 
 
-START_IMG_URL = getenv(
-    "START_IMG_URL", "https://graph.org//file/25115719697ed91ef5672.jpg"
-)
-PING_IMG_URL = getenv(
-    "PING_IMG_URL", "https://graph.org//file/389a372e8ae039320ca6c.png"
-)
-PLAYLIST_IMG_URL = "https://graph.org//file/3dfcffd0c218ead96b102.png"
-STATS_IMG_URL = "https://graph.org//file/99a8a9c13bb01f9ac7d98.png"
+START_IMG_URL = 
+    "https://graph.org/file/94e6ca90e11e31e5a3ea0-5cac62458aad508530.jpg"
+
+PING_IMG_URL = 
+    "https://graph.org/file/dcaefe64cf3b1a23ed661-71bae20e60e3d2c32d.jpg"
+
+PLAYLIST_IMG_URL = "https://graph.org/file/4e38d1eab39ee046fe9f0-604f3263fc95ffa1ab.jpg"
+STATS_IMG_URL = "https://graph.org/file/dcaefe64cf3b1a23ed661-71bae20e60e3d2c32d.jpg"
 TELEGRAM_AUDIO_URL = "https://graph.org//file/2f7debf856695e0ef0607.png"
 TELEGRAM_VIDEO_URL = "https://graph.org//file/2f7debf856695e0ef0607.png"
 STREAM_IMG_URL = "https://te.legra.ph/file/bd995b032b6bd263e2cc9.jpg"
@@ -121,3 +121,4 @@ if SUPPORT_GROUP:
         raise SystemExit(
             "[ERROR] - Your SUPPORT_GROUP url is wrong. Please ensure that it starts with https://"
         )
+
