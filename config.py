@@ -84,11 +84,9 @@ autoclean = []
 confirmer = {}
 
 
-START_IMG_URL = 
-    "https://graph.org/file/94e6ca90e11e31e5a3ea0-5cac62458aad508530.jpg"
+START_IMG_URL = "https://graph.org/file/94e6ca90e11e31e5a3ea0-5cac62458aad508530.jpg"
 
-PING_IMG_URL = 
-    "https://graph.org/file/dcaefe64cf3b1a23ed661-71bae20e60e3d2c32d.jpg"
+PING_IMG_URL = "https://graph.org/file/dcaefe64cf3b1a23ed661-71bae20e60e3d2c32d.jpg"
 
 PLAYLIST_IMG_URL = "https://graph.org/file/4e38d1eab39ee046fe9f0-604f3263fc95ffa1ab.jpg"
 STATS_IMG_URL = "https://graph.org/file/dcaefe64cf3b1a23ed661-71bae20e60e3d2c32d.jpg"
@@ -121,4 +119,5 @@ if SUPPORT_GROUP:
         raise SystemExit(
             "[ERROR] - Your SUPPORT_GROUP url is wrong. Please ensure that it starts with https://"
         )
+
 
