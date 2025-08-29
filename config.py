@@ -19,7 +19,7 @@ MONGO_DB_URI = "mongodb+srv://Saib:saib2005@cluster0.qck8hxs.mongodb.net/?retryW
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 60))
 
 # Chat id of a group for logging bot's activities
-LOG_GROUP_ID = "-1002035748224"
+LOG_GROUP_ID = "-1002015179601"
 
 # Get this value from @MissRose_Bot on Telegram by /id
 OWNER_ID = "7793156995"
@@ -44,7 +44,7 @@ GIT_TOKEN = getenv(
 )  # Fill this variable if your upstream repository is private
 
 SUPPORT_CHANNEL = "https://t.me/eternal_bot_updates"
-SUPPORT_GROUP = "https://t.me/sorcerers_680"
+SUPPORT_GROUP = "https://t.me/holaien"
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
@@ -119,6 +119,7 @@ if SUPPORT_GROUP:
         raise SystemExit(
             "[ERROR] - Your SUPPORT_GROUP url is wrong. Please ensure that it starts with https://"
         )
+
 
 
 
